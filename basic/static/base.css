@@ -1,0 +1,115 @@
+#neubar {
+  background: #052e68;
+  box-shadow: 4px 6px 12px rgba(237, 26, 26, 0.4)
+}
+
+.nav-item .active {
+  border-radius: 6px;
+  background: linear-gradient(145deg, #ffe7ca, #f5d7b2);
+  box-shadow: 4px 4px 8px #ddc1a0,
+    -4px -4px 8px #f7e5cc;
+}
+
+#neubar .dropdown-menu a:hover {
+  color: #d8bf17
+}
+
+#neubar .nav-item {
+  margin: auto 4px;
+}
+
+#neubar a {
+
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#neubar .dropdown-menu {
+  background: #685a1c
+}
+
+a.navbar-brand {
+  color: #eba3a3
+}
+
+.nav-item a {
+  color: aliceblue;
+}
+
+.nav-item a:hover {
+  color: rgb(213, 214, 216);
+}
+
+.footer {
+  position: relative;
+
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+
+.honda {
+  border-style: inset;
+  border-width: 3px;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 20px;
+
+
+}
+
+#txt {
+  /* border-style: inset;
+    border-width: 5px; */
+  max-width: 500px;
+  max-height: 550px;
+  /* margin: 20px; */
+
+}
+
+#img {
+  max-width: 500px;
+  max-height: 550px;
+  margin: 20px;
+
+}
+
+#txt h1,
+h2,
+h3 {
+  font-size: 20px;
+  color: aliceblue;
+
+}
+
+#txt button {
+  color: aliceblue;
+  text-align: center;
+
+}
+
+.search-box {
+  /* position:relative; */
+  display: flex;
+  width: 25px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 20%;
+
+
+
+}
+
+.btn-input {
+  /* position: absolute; */
+  color: #e3d85d;
+  background-color: transparent;
+  pointer-events: painted;
+
+}

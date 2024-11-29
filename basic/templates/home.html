@@ -1,0 +1,108 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block head %}
+<link rel="stylesheet" href="{% static 'base.css' %}">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<h1 style="color: aliceblue;text-align: center;">Brain Plus Academy</h1>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+      aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+      aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+      aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="honda">
+        <div id="img">
+          <img src="{% static 'media/Computer class in just 200rs.jpg.jpg' %}" height="350" width="370" alt="">
+        </div>
+        <div id="txt">
+          <h1 style="color: rgb(140, 231, 231);">INTRODUCING</h1><i class="material-icons">
+            double_arrow</i>
+
+          <h3><i class="material-icons">keyboard_double_arrow_right</i>Learn from top educators in your city</h3>
+          <h1> Centres forBrain Plus Academy basic and java UG</h1>
+          <h3><i class="material-icons">keyboard_double_arrow_right</i>Learn from top educators in your city</h3>
+          <h3><i class="material-icons">keyboard_double_arrow_right</i>Learn from top educators in your city</h3>
+          <h3>In-person classes & doubt solving</h3>
+          <h3><i class="material-icons">keyboard_double_arrow_right</i>Learn from top educators in your city</h3>
+          <h3>Bonus access to online learning</h3><br>
+          <a href="https://g.co/kgs/ZijWmBQ"><button
+              style="background-color: rgb(69, 97, 189); border-radius:10px">Find the Center</button>🔍🔍🔍
+        </div>
+      </div>
+
+    </div>
+    <div class="carousel-item">
+      <div class="honda">
+        <div id="img">
+          <img src="{% static 'media/brain-plus-academy-pandav-nagar.jpg' %}" height="350" width="370" alt="">
+        </div>
+        <div id="txt">
+          <h1 style="color: rgb(78, 104, 17);">INTRODUCING</h1><i class="material-icons">
+            double_arrow</i>
+
+          <h3><i class="material-icons">keyboard_double_arrow_right</i>Learn from top educators in your city</h3>
+          <h1> Centres forBrain Plus Academy basic and java UG</h1>
+          <h3><i class="material-icons">keyboard_double_arrow_right</i>Learn from top educators in your city</h3>
+          <h3><i class="material-icons">keyboard_double_arrow_right</i>Learn from top educators in your city</h3>
+          <h3>In-person classes & doubt solving</h3>
+          <h3><i class="material-icons">keyboard_double_arrow_right</i>Learn from top educators in your city</h3>
+          <h3>Bonus access to online learning</h3><br>
+          <a href="https://g.co/kgs/ZijWmBQ"><button
+              style="background-color: rgb(72, 14, 119); border-radius:10px">Find the Center</button>🔍🔍
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="carousel-item">
+      <div class="honda">
+        <div id="img">
+          <img src="{% static 'media/Computer class in just 200rs.jpeg.jpg' %}" height="350" width="370" alt="">
+        </div>
+        <div id="txt">
+          <h1 style="color: rgb(140, 231, 231);">INTRODUCING</h1><i class="material-icons">
+            double_arrow</i>
+
+          <h3><i class="material-icons">keyboard_double_arrow_right</i>Learn from top educators in your city</h3>
+          <h1> Centres forBrain Plus Academy basic and java UG</h1>
+          <h3><i class="material-icons">keyboard_double_arrow_right</i>Learn from top educators in your city</h3>
+          <h3><i class="material-icons">keyboard_double_arrow_right</i>Learn from top educators in your city</h3>
+          <h3>In-person classes & doubt solving</h3>
+          <h3><i class="material-icons">keyboard_double_arrow_right</i>Learn from top educators in your city</h3>
+          <h3>Bonus access to online learning</h3><br>
+          <a href="https://g.co/kgs/ZijWmBQ"><button
+              style="background-color: rgb(177, 132, 7); border-radius:10px"> Find the Center </button></a>🔍
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- </div> -->
+
+<!-- <div class="hero"> -->
+
+
+
+{% endblock %}
