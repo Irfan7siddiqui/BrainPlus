@@ -4,136 +4,179 @@
 
 
 <style>
-
-body {
-    background-color:rgb(235, 150, 39);
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
-}
-
-.about-section {
-  padding: 70px;
-  text-align: center;
-  background-color: #214696;
-  color: white;
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #79580b;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #c11717;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
   }
-}
 
+  html {
+    box-sizing: border-box;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+ 
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+
+  }
+
+  .about-section {
+    padding: 70px;
+    text-align: center;
+    background-color: #214696;
+    color: white;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .container::after,
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .title {
+    color: grey;
+  }
+
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #b8891e;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .button:hover {
+    background-color: #259fc4;
+  }
+
+  .row {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  details {
+    color: yellow;
+    border: 4px solid #60f5f5;
+    border-radius: 5px;
+    padding: 0.5em 0.5em 0;
+  }
+
+  summary {
+    color: rgb(253, 242, 199);
+    list-style-type: '⬇ ';
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+  }
+
+  details[open] {
+    padding: 0.5em;
+  }
+
+  details[open] summary {
+    list-style-type: '⬆ ';
+    border-bottom: 1px solid #1d9fea;
+    margin-bottom: 0.5em;
+  }
 </style>
 
 {% endblock %}
 
-{% block content %} 
+{% block content %}
 
 <body>
 
-<div class="about-section">
-  <h1><b>BRAIN PLUS ACADEMY</b></h1>
-  <h3>Education Institute of Learning
-    "Education is the key to success"</h3>
+  <div class="about-section">
+    <h1><b>BRAIN PLUS ACADEMY</b></h1>
+    <h3>Education Institute of Learning
+      "Education is the key to success"</h3>
     <p>A-60, GANESH NAGAR, PANDAV NAGAR, NEAR SBI ATM,</p>
-</div>
-    
-    
-  
-
-<h2 style="text-align:center">Our Team</h2>
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="" alt="Jane" style="width:50%">
-      <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
   </div>
 
-  <div class="column">
-    <div class="card">
-      <img src="" alt="Mike" style="width:50%">
-      <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>@example.com</p>
-        <p><button class="button">Contact</button></p>
+
+
+
+  <h2 style="text-align:center"><b><i>-- OUR TEAM --</i></b></h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        
+          <img src="{% static 'media/rajalambardar906@gmail.com.jpg' %}" alt="rajalambardar" height="320" width="407">
+        
+        <!-- <img src="" alt="" style="width:50%"> -->
+        <div class="container">
+          <h2 style="color: #a97c13;">Raja Lambardar</h2>
+          <p class="title">CEO & Founder</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>rajalambardar906@gmail.com</p>
+          <p><button class="button"><a style="color: azure;"
+                href="https://wa.me/6267197368?text=I'm%20interested%20in%20your%20car%20for%20sale"
+                target="_blank">Contact</button></p></a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="{% static 'media/shutter.jpg' %}" alt=""height="320" width="410">
+        <div class="container">
+          <h2>Mike Ross</h2>
+          <p class="title">Art Director</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="{% static 'media/shutter.jpg' %}" alt=""height="320" width="410">
+        <div class="container">
+          <h2>John Doe</h2>
+          <p class="title">Designer</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
       </div>
     </div>
   </div>
-  
-  <div class="column">
-    <div class="card">
-      <img src="" alt="John" style="width:50%">
-      <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-</div>
+  <details>
+    <summary>Details</summary>
+    <h4>Infomtion......</h4>
+  </details>
 
 </body>
 
